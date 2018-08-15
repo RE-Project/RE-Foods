@@ -2,13 +2,13 @@
 {
   "modid": "refoods",
   "name": "§dRE: Foods",
-  "description": "Example placeholder mod.",
+  "description": "Add Some Foods In The Game.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["AlasDiablo", "TheKilleur2001", "LiotaMiu"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "The Future Of The Mod Forge Your World",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
