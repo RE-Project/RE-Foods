@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "minecraft:item",
+      "item": "refoods:friesfr"
+    }
+  ],
+  "result": {
+    "type": "minecraft:item",
+    "item": "refoods:friesbe"
+  }
+}
