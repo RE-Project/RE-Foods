@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "refoods:juicesextractor"
+    },
+    "B": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "refoods:applejuices"
+  }
+}

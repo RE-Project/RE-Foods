@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = REFoods.MODID, name = REFoods.NAME, version = REFoods.VERSION, dependencies = "required:forge@[14.23.4.2705,);required-after:recore@[1.0.1,);")
+@Mod(modid = REFoods.MODID, name = REFoods.NAME, version = REFoods.VERSION, dependencies = "required:forge@[14.23.4.2705,);required-after:recore@[1.0.2,);")
 public class REFoods {
     public static final String MODID = "refoods";
     public static final String NAME = "§dRE: Foods";
