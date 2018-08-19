@@ -1,7 +1,7 @@
 package fr.reproject.foods.init;
 
-import fr.reproject.core.RECore;
 import fr.reproject.core.basic.REItem;
+import fr.reproject.core.utils.Register;
 import fr.reproject.foods.REFoods;
 import fr.reproject.core.basic.REItemFood;
 import net.minecraft.item.Item;
@@ -33,14 +33,14 @@ public class REItems {
 
     public static void registerItems() {
         for(int i = 0; i <= numberOfItem - 1; i++) {
-            RECore.Utils.registerItem(items[i], REFoods.RE_FOODS, REFoods.logger);
+            Register.registerItem(items[i], REFoods.RE_FOODS, REFoods.logger);
 
         }
     }
 
     public static void registerRenders() {
         for(int i = 0; i <= numberOfItem - 1; i++) {
-            RECore.Utils.registerRender(items[i], REFoods.MODID, REFoods.logger);
+            Register.registerRender(items[i], REFoods.MODID, REFoods.logger);
         }
     }
 }
